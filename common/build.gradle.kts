@@ -7,4 +7,5 @@ version = "1.0-SNAPSHOT"
 
 minecraft {
     version("1.19.4")
+    accessWideners(project.file("src/main/resources/galaxy_exploration.aw"))
 }

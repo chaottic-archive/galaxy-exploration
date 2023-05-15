@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "galaxy_exploration",
+  "version": "${version}",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "chaottic",
+    "Corgi Taco"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/chaottic/galaxy-exploration"
+  },
+  "license": "ARR",
+  "icon": "assets/galaxy_exploration/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chaottic.galaxy.exploration.common.GalaxyExplorationFabric"
+    ],
+    "client": [
+      "com.chaottic.galaxy.exploration.client.GalaxyExplorationFabricClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
